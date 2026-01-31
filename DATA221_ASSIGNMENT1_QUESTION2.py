@@ -2,6 +2,9 @@
 # January 29, 2026
 # DATA221, Assignment 1, Question 2
 
+# From pprint, import pprint (pretty printing) to format the dictionary when it is returned
+from pprint import pprint
+
 # Define function that takes a list of strings and returns a dictionary of information of each element
 def information_of_strings_in_list(list_to_check):
 
@@ -26,5 +29,5 @@ def information_of_strings_in_list(list_to_check):
 # Create a sample list that we will use in our function
 example_list_argument = ["Data", "Science", "221"]
 
-# Print the returned value of our function when given the list above
-print(information_of_strings_in_list(example_list_argument))
+# Pretty Print the returned value of our function when given the list above. The Pretty Print function will format the dictionary nicely as well.
+pprint(information_of_strings_in_list(example_list_argument))
