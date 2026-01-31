@@ -33,4 +33,3 @@
 # DATA221 Assignment 1, Question 8
 - This file imports the pandas package using the alias pd and creates a data frame using the given data in the assignment instructions.
 - The file then creates a new column that is derived by multiplying the values of the previous three columns. Then it prints the data frame.
-- 
